@@ -2,8 +2,8 @@ require "formula"
 
 class Serverbackup < Formula
   homepage "https://github.com/shedhq/serverbackup"
-  url "https://github.com/shedhq/serverbackup/archive/1.1.1.tar.gz"
-  sha1 "6d55fbba024435cc12aeb7e0f4217c423a0a9135"
+  url "https://github.com/shedhq/serverbackup/archive/2.0.0.tar.gz"
+  sha1 "65c99acde508931d96ebbca66798d28de2b754cf"
 
   depends_on "s3cmd"
 
