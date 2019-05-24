@@ -2,11 +2,11 @@ require "formula"
 
 class Shed < Formula
   homepage "https://shedcollective.com"
-  url "https://github.com/shedcollective/shed-cli-tool/archive/1.1.4.tar.gz"
+  url "https://github.com/shedcollective/shed-cli-tool/archive/1.1.5.tar.gz"
 
   # Generate hash of the above file
-  # curl -sL https://github.com/shedcollective/shed-cli-tool/archive/1.1.4.tar.gz | shasum -a 256
-  sha256 "3d702999de75349b04dce786866be4121eb9d05a80e902c4297f8200c13377aa"
+  # curl -sL https://github.com/shedcollective/shed-cli-tool/archive/1.1.5.tar.gz | shasum -a 256
+  sha256 "703d6dcf1d66cedd49083ede20616fcd091e371ff8133a20e573222c791210fe"
 
   def install
     bin.install Dir["dist/*"]
