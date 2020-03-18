@@ -9,6 +9,7 @@ class Shed < Formula
   sha256 "66c6447d19d347c3172330726843926f84e8202e9693bb6bee00b7d28227fee5"
 
   # Specify dependencies
+  depends_on "php"
   depends_on "s3cmd"
   depends_on "mysql-client"
 
