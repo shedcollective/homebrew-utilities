@@ -2,11 +2,11 @@ require "formula"
 
 class Shed < Formula
   homepage "https://shedcollective.com"
-  url "https://github.com/shedcollective/shed-cli-tool/archive/1.4.4.tar.gz"
+  url "https://github.com/shedcollective/shed-cli-tool/archive/1.4.5.tar.gz"
 
   # Generate hash of the above file
-  # curl -sL https://github.com/shedcollective/shed-cli-tool/archive/1.4.4.tar.gz | shasum -a 256
-  sha256 "b4d642014c43d9e84f7e7f425ba4372cad5ac6114e87f1f3902feadeb119d6e3"
+  # curl -sL https://github.com/shedcollective/shed-cli-tool/archive/1.4.5.tar.gz | shasum -a 256
+  sha256 "50e673b5361dcc41bac84e656a9adb7ea609fdec1bdcd1b64f53bbf615bcab7e"
 
   # Specify dependencies
   depends_on "php"
