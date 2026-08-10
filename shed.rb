@@ -3,11 +3,11 @@ require "formula"
 class Shed < Formula
   desc "A tool which makes life at Shed easier."
   homepage "https://shedcollective.com"
-  url "https://github.com/shedcollective/shed-cli-tool/archive/1.21.0.tar.gz"
+  url "https://github.com/shedcollective/shed-cli-tool/archive/1.22.0.tar.gz"
 
   # Generate hash of the above file and put onto clipboard
-  # printf $(curl -sL https://github.com/shedcollective/shed-cli-tool/archive/1.21.0.tar.gz | shasum -a 256 | cut -c 1-64) | pbcopy
-  sha256 "816cdabe73b5b7e0a590887f932864ad10d85207ec820abb604791b4c50f76d0"
+  # printf $(curl -sL https://github.com/shedcollective/shed-cli-tool/archive/1.22.0.tar.gz | shasum -a 256 | cut -c 1-64) | pbcopy
+  sha256 "f35a7161c1ea167590fb6a5b348a1ca2ae42d0d7da738369b68dd7f39abb33b5"
 
   # Specify dependencies
   depends_on "php" => ">=8.1"
@@ -19,7 +19,7 @@ class Shed < Formula
   end
 
   test do
-    assert_match "Shed Command Line Tool 1.21.0", shell_output("#{bin}/shed --version")
+    assert_match "Shed Command Line Tool 1.22.0", shell_output("#{bin}/shed --version")
   end
 
 end
